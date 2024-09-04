@@ -1,0 +1,21 @@
+ @media screen and (max-width:680px) {
+     .about-content h1 {
+         font-weight: 500;
+         font-size: 21px;
+         letter-spacing: 0;
+         line-height: 1;
+     }
+ }
+
+ @media screen and (max-width:480px) {
+     .about-content h1 {
+         font-weight: 400;
+         font-size: 19px;
+         padding: 24px 0;
+     }
+
+     .about-content p {
+         font-weight: 300;
+         font-size: 14px;
+     }
+ }

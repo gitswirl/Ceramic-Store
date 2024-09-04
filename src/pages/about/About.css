@@ -1,0 +1,40 @@
+.about {
+    width: 100%;
+}
+
+.about-content {
+    text-align: center;
+    padding: 60px 0 50px 0;
+}
+
+.about-content h1 {
+    font-weight: 400;
+    color: black;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    padding-bottom: 40px;
+}
+
+.about-content p {
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
+
+.about-para-01 {
+    padding: 20px 0;
+}
+
+.about-para-02 {
+    padding: 20px 0 50px 0;
+}
+
+.about-img-bx {
+    background-image: url(/about-img.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 540px;
+}

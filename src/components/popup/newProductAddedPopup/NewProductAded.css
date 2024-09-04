@@ -1,0 +1,48 @@
+.yourProductAdded-container {
+    background-color: rgba(0, 0, 0, 0.383);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.yourProductAdded-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourProductAdded-content p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border: 2px solid black;
+    user-select: none;
+}
+
+.yourProductAdded-btn {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    margin: 0 0 0 3px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.3s ease;
+}
+
+.yourProductAdded-btn:hover {
+    background-color: transparent;
+    color: black;
+}

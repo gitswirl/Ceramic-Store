@@ -1,0 +1,29 @@
+@media screen and (max-width:480px) {
+    .addProduct-heading {
+        padding: 50px 0 0 0;
+    }
+
+    .addProduct-heading p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .addProduct-nameBox p,
+    .addProduct-descriptionBox p,
+    .addProduct-priceBox p,
+    .addProduct-imagesBox p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .addProduct-imageBox-images {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .submit-productInApi-btn {
+        margin: 0;
+    }
+
+}

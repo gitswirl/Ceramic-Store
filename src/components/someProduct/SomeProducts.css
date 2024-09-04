@@ -1,0 +1,117 @@
+.productsLoading {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.productsLoading p {
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* .products-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 70px 0 50px 0;
+} */
+
+.All_Products {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+}
+
+.product-box {
+    text-align: center;
+}
+
+.product-box img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.product-box-img {
+    position: relative;
+}
+
+.deleteProductInApi {
+    
+    width: max-content;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 1px 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    pointer-events: all;
+    z-index: 3;
+}
+
+.deleteProductInApi:hover {
+    background: transparent;
+    color: black;
+}
+
+.product-box p {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    text-transform: capitalize;
+    padding: 20px 0 10px 0;
+    pointer-events: none;
+}
+
+.product-box strong {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    pointer-events: none;
+    text-transform: lowercase;
+}
+
+.product-box strong span {
+    margin-right: 9px;
+    position: relative;
+    pointer-events: none;
+}
+
+.product-box strong span::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.product-box:hover button {
+    visibility: visible;
+}
+
+.product-box button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 13px 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.product-box button:hover {
+    background-color: rgb(80, 80, 80);
+}

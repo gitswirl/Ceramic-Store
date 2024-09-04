@@ -1,0 +1,14 @@
+@media screen and (max-width:580px) {
+    .yourProductAdded-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: max-content;
+        margin: auto;
+    }
+
+    .yourProductAdded-btn,
+    .yourProductAdded-content p {
+        margin: 0 0 3px 0;
+    }
+}

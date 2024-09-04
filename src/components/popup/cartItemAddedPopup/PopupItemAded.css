@@ -1,0 +1,31 @@
+.cartAddedPopup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.287);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartAddedPopup-main {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 224, 185);
+    padding: 7px 30px;
+}
+
+.cartAddedPopup-main .fa-opencart {
+    font-size: 29px;
+    color: rgb(234, 131, 13);
+}
+
+.cartAddedPopup-main p {
+    color: rgb(59, 59, 59);
+    font-weight: 500;
+    padding-left: 12px;
+}
+

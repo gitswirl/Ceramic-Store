@@ -1,0 +1,189 @@
+.addProduct {
+    color: black;
+}
+
+/* heading  */
+
+.addProduct-heading {
+    padding: 40px 0 0 0;
+}
+
+.addProduct-heading p {
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* content  */
+.addProduct-content {
+    padding: 40px 0;
+}
+
+/* name box */
+
+.addProduct-nameBox p,
+.addProduct-descriptionBox p,
+.addProduct-priceBox p,
+.addProduct-imagesBox p {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.addProduct-nameBox input,
+.addProduct-priceBox input {
+    width: 100%;
+    outline: none;
+    height: 30px;
+    padding-left: 7px;
+    background: transparent;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.addProduct-nameBox input::placeholder,
+.addProduct-priceBox input::placeholder {
+    padding-left: 2px;
+    text-transform: capitalize;
+    color: rgb(127, 127, 127);
+}
+
+/* aadd more description btn  */
+.newDescription_Container {
+    position: relative;
+}
+
+.remove-newTextArea {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 1px 15px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.3s ease;
+}
+
+.remove-newTextArea:hover {
+    background: transparent;
+    color: black;
+}
+
+.addProduct-descriptionBox-textarea {
+    margin-bottom: 0;
+    height: 100px;
+    outline: none;
+    resize: none;
+    padding: 7px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.addProduct-descriptionBox-textarea::placeholder {
+    padding-left: 2px;
+    text-transform: capitalize;
+    color: rgb(127, 127, 127);
+    font-family: "Nunito", sans-serif;
+}
+
+.addProduct-addDesription-btn {
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 400;
+    border: 2px solid black;
+    width: max-content;
+    text-align: center;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin: 15px 0 25px 0;
+    transition: 0.3s ease;
+}
+
+.addProduct-addDesription-btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* product images  */
+
+.addProduct-imageBox-images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imageBox-images-wrap {
+    position: relative;
+}
+
+.imageBox-images-slectedImageShow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--themeColor);
+    pointer-events: none;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.imageBox-images-wrap:hover .imageBox-images-slectedImageShow {
+    background-color: rgb(229, 229, 229);
+}
+
+.imageBox-images-slectedImageShow img {
+    width: 100%;
+    display: block;
+}
+
+.addProduct-imageBox-images input {
+    background-color: transparent;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* submit-productInApi-btn / reset form btn */
+
+.btn-section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+
+.submit-productInApi-btn,
+.resetForm-btn {
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 400;
+    border: 2px solid black;
+    width: max-content;
+    text-align: center;
+    padding: 7px 35px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.submit-productInApi-btn:hover,
+.resetForm-btn:hover {
+    background-color: transparent;
+    color: black;
+}

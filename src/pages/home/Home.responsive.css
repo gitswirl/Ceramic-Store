@@ -1,0 +1,124 @@
+@media screen and (max-width:991px) {
+
+    /* hero  */
+    .hero-content p:nth-child(1) {
+        font-size: 60px !important;
+    }
+
+    .hero-content p:nth-child(2) {
+        font-size: 21px !important;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .our-collection h1 {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+    }
+
+    .our-collection p {
+        font-weight: 600 !important;
+        font-size: 21px !important;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    /* hero sect  */
+    .hero-content p:nth-child(1) {
+        font-size: 50px !important;
+    }
+
+    .hero-content p:nth-child(2) {
+        font-size: 18px !important;
+    }
+
+    /* collection  sect  */
+    .our-collection h1 {
+        font-weight: 500 !important;
+        font-size: 28px !important;
+    }
+
+    .our-collection p {
+        font-weight: 500 !important;
+        font-size: 18px !important;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width:780px) {
+
+    /* hero sect  */
+    .hero-content p:nth-child(1) {
+        font-size: 39px !important;
+    }
+
+    .hero-content p:nth-child(2) {
+        font-size: 16px !important;
+    }
+
+    .hero-content a {
+        padding: 10px 50px !important;
+        margin-top: 50px !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .hero-content {
+        
+        height: 80vh; 
+    }
+
+    .hero-content .shopBtn {
+        padding: 9px 65px; 
+        margin-top: 40px; 
+    }
+
+    /* hero sect  */
+    .hero-content p:nth-child(1) {
+        font-size: 30px !important;
+    }
+
+    .hero-content p:nth-child(2) {
+        font-size: 15px !important;
+    }
+
+    .hero-content a {
+        padding: 9px 45px !important;
+    }
+
+    /* collection  */
+    .our-collection h1 {
+        font-weight: 600 !important;
+        font-size: 21px !important;
+    }
+
+    .our-collection p {
+        font-weight: 500 !important;
+        font-size: 15px !important;
+    }
+
+    .our-collection-content {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (max-width:390px) {
+
+    /* hero sect  */
+    .hero-content p:nth-child(1) {
+        font-size: 28px !important;
+    }
+
+    /* collection  */
+    .our-collection h1 {
+        font-size: 18px !important;
+    }
+
+    .our-collection p {
+        font-weight: 500 !important;
+        font-size: 13px !important;
+        padding-top: 30px !important;
+    }
+}

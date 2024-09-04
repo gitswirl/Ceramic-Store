@@ -1,0 +1,208 @@
+:root {
+    --themeColor: #F2F1F0;
+    --whiteColor: #FAFAFA;
+    --OverlayDull: rgba(0, 0, 0, 0.332);
+    --themeHoverColor: #BEB09C;
+}
+
+
+/* checkout box  */
+
+.checkout-box-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: 0.5s all !important;
+    display: flex;
+    justify-content: end;
+}
+
+.checkout-box-wrap.checkout-box-wrap_Script {
+    transform: translateX(0);
+}
+
+
+/* main */
+
+.checkoutBox_closer {
+    flex: 1;
+    height: 100%;
+}
+
+.checkoutBox {
+    background-color: #c4bdad;
+    max-width: 300px;
+    width: 300px;
+    height: 100%;
+    padding: 0 30px;
+}
+
+.checkoutBox-txt-heading {
+    padding: 60px 0 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.checkoutBox-txt-heading p {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(67, 67, 67);
+}
+
+.checkoutBox-items__items-totalPrice {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.checkoutBox-items {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(28, 28, 28);
+}
+
+.checkoutBox-totalPrice {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+
+.checkoutBox-shipping-box {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.shipping-box-txt-heading {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.checkoutBox-deliverySelect {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+    color: black;
+    margin-top: 16px;
+}
+
+.checkoutBox-giveCode-box {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.giveCode-box-txt-heading {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.giveCode-input-wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.giveCode-input-wrap input {
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    padding: 7px 0;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    padding-left: 5px;
+    flex: 1;
+    letter-spacing: 2px;
+}
+
+.giveCode-input-wrap input::placeholder {
+    padding-left: 3px;
+}
+
+.giveCode-input-wrap button {
+    background-color: white;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 100;
+    color: black;
+    height: 100%;
+}
+
+.giveCode-input-wrap button .fa-arrow-right-long {
+    transition: 0.3s;
+}
+
+.giveCode-input-wrap button:hover .fa-arrow-right-long {
+    color: #BEB09C;
+}
+
+.checkoutBox-fullOfTotal {
+    width: 100%;
+    border-top: 1px solid #0000006b;
+    margin-top: 40px;
+}
+
+.fullOfTotal-text__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fullOfTotal-text {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.fullOfTotal-total {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(64, 64, 64);
+    font-size: 15px;
+}
+
+.checkout-submit-button {
+    padding-top: 40px;
+}
+
+.checkout-submit-button button {
+    background-color: black;
+    color: white;
+    border: 1.5px solid black;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
+
+.checkout-submit-button button:hover {
+    background: transparent;
+    color: black;
+}

@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --themeColor: #F2F1F0;
+    --whiteColor: #FAFAFA;
+    --OverlayDull: rgba(0, 0, 0, 0.332);
+    --themeHoverColor: #BEB09C;
+}
+
+@font-face {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200
+        /* 200 - 1000  */
+    ;
+    font-style: normal;
+    src: url();
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    background-color: var(--themeColor);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

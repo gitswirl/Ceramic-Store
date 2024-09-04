@@ -1,0 +1,121 @@
+ @media screen and (max-width:880px) {
+
+     .stamp_footer_c p {
+         font-size: 16px !important;
+     }
+ }
+
+ @media screen and (max-width:780px) {
+
+     .contact-form-wrap {
+         flex-direction: column-reverse;
+         padding-bottom: 70px;
+     }
+
+     .contact-form-heading {
+         font-size: 25px !important;
+         padding-bottom: 60px !important;
+         padding-top: 90px !important;
+     }
+
+     /* box 1 reversed  */
+     .contact-form-col2 .contact-form {
+         grid-template-columns: repeat(2, 1fr) !important;
+         column-gap: 40px !important;
+     }
+
+     .contactForm-nameInput,
+     .contactForm-emailInput,
+     .contactForm-subjectInput {
+         height: 70px !important;
+     }
+
+     .contactForm-sendButton {
+         height: 80px !important;
+     }
+
+     .contact-location-text-box {
+         padding: 40px 0;
+     }
+
+     .contact-location-text-box p {
+         font-size: 21px !important;
+     }
+
+     .contact-time-opening-box p {
+         font-size: 21px !important;
+     }
+
+     .contact-faq-box p a {
+         font-size: 21px !important;
+     }
+ }
+ 
+ @media screen and (max-width:480px) {
+
+     /* contact  */
+     .contact .locate-map-google iframe {
+         height: 270px;
+     }
+
+     .contact-form-col2 .contact-form {
+         grid-template-columns: 1fr !important;
+         column-gap: 0 !important;
+     }
+
+     .contactForm-subjectInput,
+     .contactForm-messageInput,
+     .contactForm-sendButton {
+         grid-column-start: auto;
+         grid-column-end: auto;
+     }
+
+     .contact-form-wrap {
+         padding-bottom: 40px;
+     }
+
+     .contact-location-text-box {
+         padding: 40px 0;
+     }
+
+     .contact-location-text-box p {
+         font-size: 17px !important;
+     }
+
+     .contact-time-opening-box p {
+         font-size: 17px !important;
+     }
+
+     .contact-faq-box p a {
+         font-size: 17px !important;
+     }
+
+     .stamp_footer_c p {
+         font-size: 14px !important;
+         font-weight: 300;
+         padding: 0 0 18px 0;
+         padding: 0 15px;
+     }
+ }
+
+ @media screen and (max-width:390px) {
+
+     .contact-form-heading {
+         font-size: 17px !important;
+         padding-bottom: 40px !important;
+         padding-top: 70px !important;
+     }
+
+     .contact-location-text-box p {
+         font-size: 13px !important;
+         line-height: 2.4;
+     }
+
+     .contact-time-opening-box p {
+         font-size: 13px !important;
+     }
+
+     .contact-faq-box p a {
+         font-size: 13px !important;
+     }
+ }

@@ -1,0 +1,10 @@
+ @media screen and (max-width:480px) {
+     .All_Products {
+         gap: 10px;
+         grid-template-columns: 1fr;
+         padding-bottom: 15px;
+     }
+     .product-box button {
+        visibility: visible  !important; 
+    }
+ }
